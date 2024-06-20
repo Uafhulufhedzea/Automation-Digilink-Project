@@ -1,5 +1,4 @@
 import Application.*;
-import org.apache.poi.ss.formula.functions.DMax;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -33,7 +32,7 @@ public class Selenium {
 
         //adding item to cart
             Product p = new Product(driver);
-            p.Product();
+            p.Product01();
 
         //logging out
         LogIn LG2 = new LogIn(driver);

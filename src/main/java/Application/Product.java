@@ -13,7 +13,7 @@ public class Product {
         this.driver = driver;
     }
     //method for adding first item to cart
-    public void Product(){
+    public void Product01(){
 
         //adding item to cart
         driver.findElement(By.xpath("//*[@id=\"add-to-cart-sauce-labs-backpack\"]")).click();
